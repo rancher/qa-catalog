@@ -1,0 +1,55 @@
+.catalog:
+  name: "All Question Types"
+  version: "1.0.0"
+  description: "All the things"
+  uuid: all-question-types-0
+  minimum_rancher_version: v0.46.0
+  questions:
+    - variable: "TEST_STRING"
+      label: "String"
+      required: false
+      default: "hello"
+      type: "string"
+    - variable: "TEST_MULTILINE"
+      label: "Multi-Line"
+      required: false
+      type: "multiline"
+      default: |
+        Hello
+        World
+    - variable: "TEST_PASSWORD"
+      label: "Password"
+      required: false
+      default: "not-so-secret stuff"
+      type: "password"
+    - variable: "TEST_DATE"
+      label: "Date"
+      required: false
+      default: "2015-07-25T19:55:00Z"
+      type: "date"
+    - variable: "TEST_INT"
+      label: "Integer"
+      required: false
+      default: 42
+      type: "int"
+    - variable: "TEST_FLOAT"
+      label: "Float"
+      required: false
+      default: 4.2
+      type: "float"
+    - variable: "TEST_BOOLEAN"
+      label: "Boolean"
+      required: false
+      default: true
+      type: "float"
+    - variable: "TEST_SERVICE"
+      label: "Service"
+      required: false
+      default: "test"
+      type: "service"
+    - variable: "TEST_CERTIFICATE"
+      label: "Certificate"
+      required: false
+      default: "rancher.rocks"
+      type: "certificate"
+

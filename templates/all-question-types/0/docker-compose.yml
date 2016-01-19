@@ -1,0 +1,16 @@
+all-question-types:
+  image: busybox
+  labels:
+    io.rancher.container.start_once: true
+  command: 'su -c "sleep 20 && exec /bootstrap-hdfs.sh" hdfs'
+  labels:
+    test.string: ${TEST_STRING}
+    test.multiline: ${TEST_MULTILINE}
+    test.password: ${TEST_PASSWORD}
+    test.date: ${TEST_DATE}
+    test.enum: ${TEST_ENUM}
+    test.int: ${TEST_INT}
+    test.float: ${TEST_FLOAT}
+    test.boolean: ${TEST_BOOLEAN}
+    test.service: ${TEST_SERVICE}
+    test.certificate: ${TEST_CERTIFICATE}
