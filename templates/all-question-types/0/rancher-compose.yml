@@ -22,6 +22,15 @@
       required: false
       default: "not-so-secret stuff"
       type: "password"
+    - variable: "TEST_ENUM"
+      label: "Enum"
+      required: false
+      options:
+        - purple
+        - monkey
+        - dishwasher
+      default: "monkey"
+      type: "enum"
     - variable: "TEST_DATE"
       label: "Date"
       required: false
@@ -41,11 +50,11 @@
       label: "Boolean"
       required: false
       default: true
-      type: "float"
+      type: "boolean"
     - variable: "TEST_SERVICE"
       label: "Service"
       required: false
-      default: "test"
+      default: "kopf"
       type: "service"
     - variable: "TEST_CERTIFICATE"
       label: "Certificate"
