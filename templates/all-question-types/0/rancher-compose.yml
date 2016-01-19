@@ -61,4 +61,9 @@
       required: false
       default: "rancher.rocks"
       type: "certificate"
+    - variable: "TEST_UNKNOWN"
+      label: "Unknown"
+      required: false
+      default: "wha?"
+      type: "unknown"
 
