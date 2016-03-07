@@ -8,7 +8,7 @@
       required: true
       default: "frontend"
       type: "string"
-    - variable: "Service Port"
+    - variable: "SERVICE_PORT"
       label: "What port to listen on"
       required: true
       type: "int"
@@ -18,7 +18,7 @@
       required: true
       default: "frontend"
       type: "string"
-    - variable: "Frontend Scale"
+    - variable: "FRONTEND_REPLICAS"
       label: "Replicas for the frontend RC"
       required: true
       type: "int"
