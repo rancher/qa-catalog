@@ -1,5 +1,7 @@
 all-question-types:
   image: busybox
+  tty: true
+  stdin_open: true
   labels:
     test.string: ${TEST_STRING}
     test.multiline: ${TEST_MULTILINE}
