@@ -1,5 +1,0 @@
-name: K8s Guestbook
-description: |
-  This is an example Kubernetes template
-version: 1.0.0
-category: Test
