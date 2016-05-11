@@ -1,0 +1,5 @@
+name: NFS Server
+description: |
+  Exports directories as NFS
+version: 1.0.0
+category: Test
