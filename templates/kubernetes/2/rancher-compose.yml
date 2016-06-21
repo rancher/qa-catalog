@@ -22,8 +22,6 @@ etcd:
     health_check:
         request_line: GET /health HTTP/1.0
         port: 2379
-        initializingTimeout: 15000
-        reinitializingTimeout: 5000
         interval: 5000
         response_timeout: 3000
         unhealthy_threshold: 3
