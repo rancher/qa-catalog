@@ -1,6 +1,6 @@
 .catalog:
   name: "Kubernetes"
-  version: "v1.2.4-rancher8_1"
+  version: "v1.2.4-rancher9_1"
   description: "Rancher Kubernetes service"
 
 kubernetes:
