@@ -2,7 +2,6 @@
   name: "NFS Server"
   version: "1.0.0"
   description: "Exports the specified directories as NFS"
-  minimum_rancher_version: v0.46.0
   questions:
     - variable: "EXPORTS"
       type: "string"

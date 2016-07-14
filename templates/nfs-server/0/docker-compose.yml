@@ -1,7 +1,5 @@
 nfs-server:
   image: vincent99/nfs-server
-  labels:
-    io.rancher.container.pull_image: always
   command: ${EXPORTS}
   privileged: true
   volumes:
