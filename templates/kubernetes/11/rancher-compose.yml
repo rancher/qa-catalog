@@ -27,7 +27,7 @@ etcd:
         scale_policy:
             min: 1
     health_check:
-        request_line: GET /health HTTP/1.0
+        #request_line: GET /health HTTP/1.0
         port: 2379
         interval: 15000
         response_timeout: 10000
