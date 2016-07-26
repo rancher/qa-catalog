@@ -1,6 +1,6 @@
 .catalog:
   name: Kubernetes
-  version: v1.3.0-rancher2
+  version: v1.3.0-rancher3
   description: Rancher Kubernetes service
 
 kubernetes:
@@ -26,7 +26,8 @@ etcd:
         scale_policy:
             min: 1
     health_check:
-        port: 2379
+        port: 2378
+        request_line: '/health'
         interval: 5000
         response_timeout: 3000
         unhealthy_threshold: 3
