@@ -1,0 +1,15 @@
+all-question-types:
+  image: busybox
+  tty: true
+  stdin_open: true
+  labels:
+    test.string: ${TEST_STRING}
+    test.multiline: ${TEST_MULTILINE}
+    test.password: ${TEST_PASSWORD}
+    test.date: ${TEST_DATE}
+    test.enum: ${TEST_ENUM}
+    test.int: ${TEST_INT}
+    test.float: ${TEST_FLOAT}
+    test.boolean: ${TEST_BOOLEAN}
+    test.service: ${TEST_SERVICE}
+    test.certificate: ${TEST_CERTIFICATE}
