@@ -1,8 +1,8 @@
 .catalog:
   name: Kubernetes
-  version: v1.2.4-rancher9_5
+  version: v1.2.4-rancher7.3
   description: Rancher Kubernetes service
-  minimum_rancher_version: v1.1.0
+  minimum_rancher_version: v1.1.1
 
 kubernetes:
     metadata:
@@ -27,12 +27,11 @@ etcd:
         scale_policy:
             min: 1
     health_check:
-        #request_line: GET /health HTTP/1.0
         port: 2379
-        interval: 15000
-        response_timeout: 10000
-        unhealthy_threshold: 2
-        healthy_threshold: 4
+        interval: 5000
+        response_timeout: 3000
+        unhealthy_threshold: 3
+        healthy_threshold: 2
         recreate_on_quorum_strategy_config:
             quorum: 2
         strategy: recreateOnQuorum
