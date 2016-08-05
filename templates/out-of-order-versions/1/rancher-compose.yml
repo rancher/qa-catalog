@@ -1,0 +1,5 @@
+.catalog:
+  name: "Out of Order Versions"
+  version: "1.0.1"
+  description: "More than 9 versions"
+  minimum_rancher_version: v0.46.0
