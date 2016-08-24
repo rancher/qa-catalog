@@ -1,8 +1,8 @@
 .catalog:
   name: "Labels Catalog"
   version: "1.0.1"
-  description: "More than 9 versions"
+  description: "4 versions"
   minimum_rancher_version: v0.46.0
   labels:
-    "label1":"value1"
-    "label2":"value2"
+    "label1" : "value1"
+    "label2" : "value2"
