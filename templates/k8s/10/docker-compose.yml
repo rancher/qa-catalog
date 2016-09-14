@@ -155,7 +155,7 @@ rancher-kubernetes-agent:
         io.rancher.container.agent_service.labels_provider: "true"
     environment:
         KUBERNETES_URL: http://master
-    image: rancher/kubernetes-agent:v0.3.3
+    image: wlan0/kubernetes-agent:v0.3.4
     privileged: true
     volumes:
         - /var/run/docker.sock:/var/run/docker.sock
