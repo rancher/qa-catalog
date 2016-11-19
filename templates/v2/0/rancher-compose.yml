@@ -1,0 +1,6 @@
+.catalog:
+  name: "version: 2 test"
+  version: "1.0.0"
+  description: "More than 9 versions"
+version2-test:
+    scale: 1

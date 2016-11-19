@@ -1,0 +1,5 @@
+name: version 2 test
+description: |
+  This tests the version: 2 of yaml files
+version: 1.0.0
+category: test
