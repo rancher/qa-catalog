@@ -1,0 +1,4 @@
+version2-test:
+  image: nginx
+  tty: true
+  stdin_open: true

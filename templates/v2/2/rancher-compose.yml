@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  name: "Version Test"
+  version: "3.0.0"
+  description: "Version 3.0, want to make sure I see this"
+  minimum_rancher_version: v1.1.0
+services:
+  version2-test:
+    scale: 1
