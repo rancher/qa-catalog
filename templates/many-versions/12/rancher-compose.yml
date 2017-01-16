@@ -3,4 +3,4 @@
   version: "1.0.12"
   description: "More than 9 versions"
   minimum_rancher_version: v0.48.0
-  maximum_rancher_version: v2.0.0
+  maximum_rancher_version: v2.1.0
