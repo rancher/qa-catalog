@@ -1,0 +1,6 @@
+.catalog:
+  name: "Many Versions"
+  version: "1.0.14"
+  description: "More than 9 versions"
+  minimum_rancher_version: v0.45.0
+  maximum_rancher_version: v2.5.0
