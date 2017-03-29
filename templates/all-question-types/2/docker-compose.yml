@@ -13,3 +13,4 @@ all-question-types:
     test.boolean: ${TEST_BOOLEAN}
     test.service: ${TEST_SERVICE}
     test.certificate: ${TEST_CERTIFICATE}
+    test.host: ${TEST_HOST}

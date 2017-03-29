@@ -60,6 +60,10 @@
       required: false
       default: "rancher.rocks"
       type: "certificate"
+    - variable: "TEST_HOST"
+      label: "Host"
+      required: false
+      type: "host"
     - variable: "TEST_UNKNOWN"
       label: "Unknown"
       required: false
