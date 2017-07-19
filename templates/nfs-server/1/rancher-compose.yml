@@ -1,0 +1,4 @@
+.catalog:
+  name: "NFS Server"
+  version: "2.0.0"
+  description: "Exports /export as NFSv3 in user-space"
