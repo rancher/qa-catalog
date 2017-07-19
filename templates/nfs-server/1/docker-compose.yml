@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nfs:
+    image: mitcdh/unfs3
+    stdin_open: true
+    tty: true
+    volumes:
+    - export:/export
+    labels:
+      io.rancher.container.pull_image: always
